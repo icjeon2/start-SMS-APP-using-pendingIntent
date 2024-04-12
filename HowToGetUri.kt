@@ -1,6 +1,6 @@
 /**
  * return uri using filePath
- * 
+ * ex) getUriFromPath(context, path)
  */
 
 fun getUriFromPath(context : Context, filePath: String): Uri? {
