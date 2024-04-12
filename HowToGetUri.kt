@@ -1,6 +1,8 @@
 /**
  * return uri using filePath
- * ex) getUriFromPath(context, path)
+ * ex)
+ *     val path = "/storage/emulated/0/DCIM/Camera/test.jpg"
+ *     val uri = getUriFromPath(context, path)
  */
 
 fun getUriFromPath(context : Context, filePath: String): Uri? {
